@@ -4,9 +4,51 @@
 
 **Dataset:** [https://www.kaggle.com/datasets/mirichoi0218/insurance](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
-## Question1: 
+### Why we chose this dataset:
 
-## Question2: Analysis of the Relationship Between Women's Medical Expenses and the Number of Children Born
+We selected the medical insurance charges dataset because it provides comprehensive health-related information including age, BMI, smoking status, region, number of children, and medical expenses. This dataset is particularly valuable for analyzing healthcare patterns and cost drivers across different demographic groups. The inclusion of reproductive data (number of children) makes it especially relevant for studying women's health economics, allowing us to examine how various life factors influence medical expenditures. The dataset's structured format and diverse variables enable robust statistical analysis and meaningful insights into healthcare consumption patterns.
+
+![Dataset Overview](media/image1.jpeg)
+
+## Question 1: Analysis of the Relationship Between BMI and Medical Charges
+
+### 1. Why this question:
+
+Understanding the correlation between BMI and medical expenses is crucial for several reasons. With rising global obesity rates and increasing healthcare costs, identifying how body weight status impacts medical expenditures can help in developing targeted health interventions. This analysis provides valuable insights for insurance companies in risk assessment, helps healthcare providers allocate resources more efficiently, and supports public health initiatives aimed at weight management.
+
+### 2. How we analyze:
+
+We conducted a systematic analysis by：
+
+- Categorizing BMI values into standard classifications: Underweight (<18.5), Normal (18.5-24.9), Overweight (25-29.9), and Obese (≥30)
+- Calculating average medical charges for each BMI category
+- Performing correlation analysis between continuous BMI values and medical charges
+- Creating scatter plots with trend lines to visualize the relationship
+- Conducting subgroup analysis while controlling for other variables like smoking status and age
+
+### 3. Result:
+
+Our analysis reveals a significant positive correlation between BMI and medical charges. The data shows that individuals in the Obese category (BMI ≥30) have the highest average medical expenses, approximately 40% higher than those in the Normal weight category. The relationship appears to be non-linear, with medical costs increasing more rapidly as BMI enters the obese range.
+
+![BMI vs Medical Charges](media/image2.jpeg)
+
+### 4. Deep explanation:
+
+The strong relationship between BMI and medical charges can be explained by several factors：
+
+- Higher BMI is associated with increased risk of chronic conditions such as diabetes, hypertension, and cardiovascular diseases
+- Obese individuals often require more frequent medical consultations, medications, and specialized treatment
+- Weight-related conditions may lead to more complex and expensive medical procedures
+- The correlation may be partially mediated by other factors like physical activity levels and dietary habits
+
+### 5. Commercial value:
+
+- Health insurance companies can use these findings to develop more accurate risk-based pricing models and create incentivized wellness programs for weight management.
+- Employers can implement workplace health initiatives focused on weight control to reduce overall healthcare costs.
+- Healthcare providers can develop targeted prevention programs for high-BMI individuals to mitigate future medical expenses.
+- Public health organizations can use this data to advocate for obesity prevention programs and justify investments in weight management initiatives.
+
+## Question 2: Analysis of the Relationship Between Women's Medical Expenses and the Number of Children Born
 
 ### 1. Why this question:
 
@@ -20,7 +62,7 @@ In the process of data analysis, we excluded the influences of factors such as b
 
 Women's medical expenses show a trend of first increasing, then slightly fluctuating, and finally decreasing as the number of children they give birth to increases. This trend reflects the differences in health needs at different reproductive stages.
 
-![Image](media/image1.png)
+![Women's Medical Expenses vs Children](media/image3.png)
 
 ### 4. Deep explanation:
 
@@ -33,11 +75,11 @@ Women's medical expenses show a trend of first increasing, then slightly fluctua
 - Medical institutions can optimize integrated pregnancy and childbirth services for the group of women with "1 to 4 children" to meet the high demands of this stage.
 - Insurance companies can design specialized pregnancy and childbirth insurance products for the group of women with "1 to 4 children" based on this data, achieving precise matching of risks and services.
 
-## Question3: The impact of smoking on physical health
+## Question 3: The impact of smoking on physical health
 
 ### 1. Why this question:
 
-Smoking is a widespread and serious social issue. We chose this topic with the aim of quantifying and visualizing the problems caused by smoking, providing mutual recommendations for both smokers and insurance companies. Our goal is to help everyone recognize the hazards of smoking and genuinely influence lifestyle choices for a healthier future.
+Smoking is a widespread and serious social issue. We chose this topic with the aim of quantifying and visualizing the problems caused by smoking, providing mutual recommendations for both smokers and insurance companies. Our goal is to help everyone recognize the dangers of smoking and genuinely influence lifestyle choices for a healthier future.
 
 ### 2. How we analyze:
 
@@ -45,7 +87,7 @@ During the data analysis, I divided the data into four categories based on two i
 
 ### 3. Result:
 
-![Image](media/image2.png)
+![Smoking Impact Analysis](media/image4.png)
 
 - For female smokers, the median expenses of medical treatment are around 30,000 dollars, whereas for non-smokers, they are below $10,000.
 - For male smokers, the median expenses of medical treatment are around 38,000 dollars, while for non-smokers, they are below $10,000.
@@ -56,7 +98,7 @@ During the data analysis, I divided the data into four categories based on two i
 
 In this analysis, we focused on the difference in median costs between the two groups, but we should also pay attention to how tightly the data cluster.
 
-As the box-charts show, smokers' expenses are far more spread out than those of non-smokers. Non-smokers' costs are concentrated in the 5000–10000 dollars band, whereas smokers' costs are clustered across the 20000–40000 dollars range. This indicates that the physical harm of smoking varies from person to person, yet for the vast majority it is extremely severe---on average roughly four times the expense incurred by non-smokers.
+As the box-charts show, smokers' expenses are far more spread out than those of non-smokers. Non-smokers' costs are concentrated in the 5000–10000 dollars band, whereas smokers' costs are clustered across the 20000–40000 dollars range. This indicates that the physical harm of smoking varies from person to person, yet for the vast majority it is extremely severe—on average roughly four times the expense incurred by non-smokers.
 
 ### 5. Commercial value:
 
