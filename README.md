@@ -8,7 +8,7 @@
 
 We selected the medical insurance charges dataset because it provides comprehensive health-related information including age, BMI, smoking status, region, number of children, and medical expenses. This dataset is particularly valuable for analyzing healthcare patterns and cost drivers across different demographic groups. The inclusion of reproductive data (number of children) makes it especially relevant for studying women's health economics, allowing us to examine how various life factors influence medical expenditures. The dataset's structured format and diverse variables enable robust statistical analysis and meaningful insights into healthcare consumption patterns.
 
-![Dataset Overview](media/image1.jpeg)
+![Dataset Overview](/Users/xrli/Desktop/misy225/repo/medical-app)
 
 ## Question 1: Analysis of the Relationship Between BMI and Medical Charges
 
@@ -30,7 +30,7 @@ We conducted a systematic analysis by：
 
 Our analysis reveals a significant positive correlation between BMI and medical charges. The data shows that individuals in the Obese category (BMI ≥30) have the highest average medical expenses, approximately 40% higher than those in the Normal weight category. The relationship appears to be non-linear, with medical costs increasing more rapidly as BMI enters the obese range.
 
-![BMI vs Medical Charges](media/image2.jpeg)
+![BMI vs Medical Charges](/Users/xrli/Desktop/misy225/repo/medical-app)
 
 ### 4. Deep explanation:
 
@@ -62,7 +62,7 @@ In the process of data analysis, we excluded the influences of factors such as b
 
 Women's medical expenses show a trend of first increasing, then slightly fluctuating, and finally decreasing as the number of children they give birth to increases. This trend reflects the differences in health needs at different reproductive stages.
 
-![Women's Medical Expenses vs Children](media/image3.png)
+![Women's Medical Expenses vs Children](/Users/xrli/Desktop/misy225/repo/medical-app)
 
 ### 4. Deep explanation:
 
@@ -87,8 +87,7 @@ During the data analysis, I divided the data into four categories based on two i
 
 ### 3. Result:
 
-![Smoking Impact Analysis](media/image4.png)
-
+![Smoking Impact Analysis](/Users/xrli/Desktop/misy225/repo/medical-app)
 - For female smokers, the median expenses of medical treatment are around 30,000 dollars, whereas for non-smokers, they are below $10,000.
 - For male smokers, the median expenses of medical treatment are around 38,000 dollars, while for non-smokers, they are below $10,000.
 - We can clearly see that the charges of non-smokers are less than one fourth of smokers, while the charge of smokers are very high.
