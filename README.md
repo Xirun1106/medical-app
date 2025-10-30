@@ -8,7 +8,7 @@
 
 We selected the medical insurance charges dataset because it provides comprehensive health-related information including age, BMI, smoking status, region, number of children, and medical expenses. This dataset is particularly valuable for analyzing healthcare patterns and cost drivers across different demographic groups. The inclusion of reproductive data (number of children) makes it especially relevant for studying women's health economics, allowing us to examine how various life factors influence medical expenditures. The dataset's structured format and diverse variables enable robust statistical analysis and meaningful insights into healthcare consumption patterns.
 
-![Dataset Overview](/Users/xrli/Desktop/misy225/repo/medical-app)
+![Dataset Overview](/Users/xrli/Desktop/misy225/repo/medical-app/image1.png)
 
 ## Question 1: Analysis of the Relationship Between BMI and Medical Charges
 
